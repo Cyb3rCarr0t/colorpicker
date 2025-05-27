@@ -7536,6 +7536,7 @@ var ColorControl$2 = function (_UIElement) {
         value: function refresh() {
             this.setColorUI();
             this.setBackgroundColor();
+	    this.setLastUpdateColor();
         }
     }, {
         key: 'setColorUI',
